@@ -1,10 +1,10 @@
-public class MultiSetPermutation {
+public class Utilities {
   private int maxNumberOfPermutation;
   private StringBuffer wordInLetters;
   private String word;
   private int lengthOfWord;
 
-  public MultiSetPermutation(String word) {
+  public Utilities(String word) {
     this.word = word.toLowerCase().trim();
     this.lengthOfWord = word.length();
     this.wordInLetters = new StringBuffer(word);

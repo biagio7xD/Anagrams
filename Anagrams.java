@@ -11,7 +11,7 @@ public class Anagrams {
     this.wordInLetter = this.word.toLowerCase().trim().toCharArray();
     this.fixedLetter = 0;
     this.counter = 0;
-    MultiSetPermutation maxNumPermutations = new MultiSetPermutation(word);
+    Utilities maxNumPermutations = new Utilities(word);
     maxNumPermutations.calculateFactorial();
     if (numPermunations > 0 && numPermunations <= maxNumPermutations.getMaxNumberOfPermutation()) {
       this.maxNumOfAnagrams = numPermunations;

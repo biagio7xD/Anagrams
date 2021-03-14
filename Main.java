@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Please insert a valid word");
         continue;
       }
-      MultiSetPermutation maxNumOfPermutations = new MultiSetPermutation(word);
+      Utilities maxNumOfPermutations = new Utilities(word);
       maxNumOfPermutations.calculateFactorial();
       if (maxNumOfPermutations.getMaxNumberOfPermutation() < 0) {
         System.out.println("\nOPS, I got an error. Sorry :(");
